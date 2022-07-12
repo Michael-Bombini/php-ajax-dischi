@@ -73,8 +73,16 @@ $db = [
     ]
 ];
 
+$genreSearched = key_exists("genre" , $_GET) ? trim($_GET["genre"]) : "";
+if($genreSearched){
+  $dbFiltered =  array_filter($db , function($element) use ($genreSearched) {
+        return $element["genre"] === $genreSearched;
+
+    });
+}
+
 header("Content-Type: application/json");
 
 echo json_encode([
-   $db,
+   $dbFiltered,
 ]);
