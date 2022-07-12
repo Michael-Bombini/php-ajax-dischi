@@ -74,6 +74,7 @@ $db = [
 ];
 
 $genreSearched = key_exists("genre" , $_GET) ? trim($_GET["genre"]) : "";
+$dbFiltered = $db;
 if($genreSearched){
   $dbFiltered =  array_filter($db , function($element) use ($genreSearched) {
         return $element["genre"] === $genreSearched;
