@@ -32,7 +32,7 @@
                         <img src="<?php echo $dato["poster"] ?>" alt="">
                         <h1><?php echo $dato["title"] ?></h1>
                         <h2><?php echo $dato["author"] ?></h2>
-                        <h3><?php echo $dato["year"] ?>}</h3>
+                        <h3><?php echo $dato["year"] ?></h3>
                     </div>
 
 
