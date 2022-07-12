@@ -32,7 +32,11 @@
                     </div>
 
                 </div>
+                <form>
 
+                    <input type="text" v-model="genreSearched" placeholder="Cerca genere">
+                    <button @click="fetchGenre">Search genre</button>
+                </form>
 
 
             </div>
