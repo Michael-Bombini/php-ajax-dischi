@@ -1,0 +1,52 @@
+
+/*  HEADER */
+
+header {
+    background-color: #2E3A46;
+    height: 10vh;
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* MAIN CONTAINER  */
+
+main {
+    background-color: #1E2D3B;
+    height: 90vh;
+    padding: 7rem 0;
+    position: relative;
+}
+
+
+
+/* CARD CONTENT */
+
+
+div.col {
+    height: 350px;
+    background: #2E3A46;
+    padding: 0.5rem;
+    text-align: center;
+}
+img {
+    aspect-ratio: 1/1;
+    height: 180px;
+    max-width: 100%;
+    margin-bottom: 0.9rem;
+}
+h1 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 , h3{
+    font-size: 1.2rem;
+    color: #6D6B6B;
+}
